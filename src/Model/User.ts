@@ -13,6 +13,10 @@ var schema = new mongoose.Schema({
   password:{
     type: String,
     required:true
+  },
+  profilePicture:{
+    type: String,
+    default: ""
   }
 })
 
